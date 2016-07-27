@@ -9,4 +9,8 @@ func main() {
 	if component == "issue" {
 		RunIssue()
 	}
+
+	if component == "transition" {
+		RunTransitions()
+	}
 }
